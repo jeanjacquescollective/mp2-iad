@@ -5,6 +5,7 @@ export default {
     logo: '/Artevelde.svg',
     nav: [
       { text: 'Introduction', link: '/' },
+      { text: 'P5.js', link: '/p5/' },
       {
         text: 'Resolume',
         items: [
