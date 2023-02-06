@@ -129,3 +129,5 @@ Plenty of things to discover!
 Head over to [the examples page](https://p5js.org/examples/) and find something that looks interesting.
 
 
+https://blog.logrocket.com/creating-animations-p5-js/
+https://happycoding.io/tutorials/p5js/animation
