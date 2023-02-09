@@ -33,6 +33,6 @@ export default {
     }
   }, 
   // outDir: '../public',
-  base: '/'
+  base: '/docs/'
   
 }
