@@ -26,7 +26,8 @@ export default {
     }
   }, 
   build: {
-    outDir: '../../public'
-  }
+    outDir: '../public'
+  }, 
+  base: ''
   
 }
