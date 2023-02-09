@@ -1,5 +1,6 @@
 # Typography
 
+## Animating words
 https://erraticgenerator.com/blog/animate-word-by-word-in-p5js/
 https://www.youtube.com/watch?v=SKDhkB8g1So
 
