@@ -5,15 +5,22 @@ export default {
     logo: '/Artevelde.svg',
     nav: [
       { text: 'Introduction', link: '/' },
-      { text: 'P5.js', link: '/p5/' },
-      {
-        text: 'Resolume',
-        items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
-        ]
-      },
+      { text: 'P5.js', 
+      items: [
+        { text: 'Introduction', link: '/p5/' },
+        { text: 'Audio', link: '/p5/audio/' },
+        { text: 'Typography', link: '/p5/typography/' },
+        { text: 'Video', link: '/p5/video/' }
+      ]
+    },
+      // {
+      //   text: 'Resolume',
+      //   items: [
+      //     { text: 'Item A', link: '/item-1' },
+      //     { text: 'Item B', link: '/item-2' },
+      //     { text: 'Item C', link: '/item-3' }
+      //   ]
+      // },
       ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/' },
@@ -25,9 +32,7 @@ export default {
       copyright: 'Copyright © 2023-present Jannes Lambrecht'
     }
   }, 
-  build: {
-    outDir: '../public'
-  }, 
+  outDir: '../public',
   base: ''
   
 }
