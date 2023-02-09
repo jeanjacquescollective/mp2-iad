@@ -27,7 +27,7 @@ jobs:
       - run: npm ci && npm run docs:build
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: public
+          path: docs/.vitepress/dist
 
   deploy:
     environment:

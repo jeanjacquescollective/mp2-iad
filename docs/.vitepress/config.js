@@ -32,7 +32,7 @@ export default {
       copyright: 'Copyright © 2023-present Jannes Lambrecht'
     }
   }, 
-  outDir: '../public',
-  base: ''
+  // outDir: '../public',
+  // base: ''
   
 }
