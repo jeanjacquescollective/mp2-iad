@@ -13,6 +13,14 @@ export default {
         { text: 'Video', link: '/p5/video/' }
       ]
     },
+    // { text: 'Slides', 
+    //   items: [
+    //     { text: 'Introduction', link: '/reveal/slides/index.html' },
+    //     // { text: 'Audio', link: '/p5/audio/' },
+    //     // { text: 'Typography', link: '/p5/typography/' },
+    //     // { text: 'Video', link: '/p5/video/' }
+    //   ]
+    // },
       // {
       //   text: 'Resolume',
       //   items: [
