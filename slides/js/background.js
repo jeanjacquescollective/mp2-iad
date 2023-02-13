@@ -1,9 +1,11 @@
 let mouseXPosition = 0;
+let canvas = document.getElementById('canvas');
+let scaleX, scaleY = 1;
 const rand = function(min, max) {
     return Math.random() * ( max - min ) + min;
   }
   
-  let canvas = document.getElementById('canvas');
+  
   let ctx = canvas.getContext('2d');
   
   canvas.width = window.innerWidth;
@@ -76,6 +78,7 @@ const rand = function(min, max) {
   
   function changeCanvas(timestamp) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // ctx.scale(scaleX,scaleY);
     let adjX = 2;
     let adjY = 2;
     let adjBlur = 1;
@@ -101,7 +104,7 @@ const rand = function(min, max) {
         grd.addColorStop(0, item.colorOne);
         grd.addColorStop(1, item.colorTwo);
         ctx.fillStyle = grd;
-        ctx.arc( item.x, item.y, item.radius, 0, Math.PI * 2 );
+        ctx.arc( item.x, item.y * scaleY, item.radius * scaleX, 0, Math.PI * 2 );
         ctx.fill();
         // ctx.scale(2, 2);
         ctx.closePath();
@@ -114,6 +117,14 @@ const rand = function(min, max) {
   window.requestAnimationFrame(changeCanvas);
   const track = (e) => {
     mouseXPosition = e.pageX;
-    console.log("X - ", e.pageX, " Y - ", e.pageY);
+    let width = canvas.width;
+    let height = canvas.height;
+    scaleX = lerp(.5,1.5,e.pageX/width);
+    scaleY = lerp(.5,1.5,e.pageY/height);
+    console.log("X - ", lerp(.9,1.1,e.pageX/width), " Y - ", lerp(.9,1.1,e.pageY/height));
+    
   }
   addEventListener("mousemove", track, false);
+
+  const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+  const lerp = (a, b, amount) => (1 - amount) * a + amount * b;
