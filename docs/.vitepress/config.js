@@ -43,5 +43,4 @@ export default {
   }, 
   // outDir: '../public',
   base: '/docs/'
-  
 }

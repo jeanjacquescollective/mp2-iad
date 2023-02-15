@@ -78,3 +78,15 @@ function draw() {
 ```
 
 Instead of the line, we use vertex here. A vertex is a point.
+
+Let's add some user interaction.
+
+```js
+function keyReleased() {
+  if (keyCode == DELETE || keyCode == BACKSPACE) background(255);
+  if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+  if (key == 'r' || key == 'R') stroke(255,0,0);
+  if (key == 'g' || key == 'G') stroke(0,255,0);
+  if (key == 'b' || key == 'B') stroke(0,0,255);
+}
+```

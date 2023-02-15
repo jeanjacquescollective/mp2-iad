@@ -108,6 +108,9 @@ for (let x = 0; x < width; x += 20) {
 
 We have a grid!
 
+![Grid](/grid.png)
+
+
 ### Exercise 
 
 Try to give every cube a different color.
@@ -116,7 +119,7 @@ Try to give every cube a different color.
 
 Try to offset the cubes with a sine-wave in the y-direction.
 
-![How sine and cosine influence the circle](/sine-wave-grid.png)
+![Sine wave grid](/sine-wave-grid.png)
 
 ### Experiment
 

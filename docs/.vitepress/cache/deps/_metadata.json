@@ -1,29 +1,17 @@
 {
-  "hash": "2ae723d6",
-  "browserHash": "9790e36d",
+  "hash": "311486ee",
+  "browserHash": "e7e4a917",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "d2f66060",
+      "fileHash": "c2d39327",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "db6f393a",
-      "needsInterop": false
-    },
-    "reveal.js": {
-      "src": "../../../../node_modules/reveal.js/dist/reveal.esm.js",
-      "file": "reveal__js.js",
-      "fileHash": "f25c572b",
-      "needsInterop": false
-    },
-    "reveal.js/plugin/markdown/markdown.esm.js": {
-      "src": "../../../../node_modules/reveal.js/plugin/markdown/markdown.esm.js",
-      "file": "reveal__js_plugin_markdown_markdown__esm__js.js",
-      "fileHash": "12f8cf27",
+      "fileHash": "07d80332",
       "needsInterop": false
     }
   },
