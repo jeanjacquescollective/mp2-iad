@@ -8,6 +8,7 @@ export default {
       { text: 'P5.js', 
       items: [
         { text: 'Introduction', link: '/p5/' },
+        { text: 'Abstract', link: '/p5/abstract/' },
         { text: 'Audio', link: '/p5/audio/' },
         { text: 'Typography', link: '/p5/typography/' },
         { text: 'Video', link: '/p5/video/' }
