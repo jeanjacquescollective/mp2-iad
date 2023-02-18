@@ -1,1 +1,1 @@
-[Intro](./pages/intro.md)
+[Intro](/slides/slides/index.html)
