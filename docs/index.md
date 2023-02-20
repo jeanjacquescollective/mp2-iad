@@ -19,6 +19,14 @@ P5 evolved from Processing, a library with a custom IDE loved by many free spiri
 
 [GridType](https://www.youtube.com/watch?v=xOCUrAN7rjs)
 
+[Steve's Makerspace](https://www.youtube.com/@StevesMakerspace)
+
+[ph4se space](https://www.youtube.com/watch?v=UsIF5r8rAvk)
+
+[weidi](https://www.youtube.com/watch?v=HQZp4pYYzhI&list=PLnyhHTSmcsEncMbNDVre2nh3OLXSW9LH2)
+
+[Nekodigi Graphics Artist](https://www.youtube.com/playlist?list=PLzSs5srqbLqJhRehvusk2adFaexKHXicC)
+
 ## Resolume
 
 

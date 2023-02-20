@@ -138,3 +138,8 @@ Try to rotate the cubes so that the rotation depends on the position.
 Tip: use push() and pop(). 
 You can also find help here: 
 [Stackoverflow](https://stackoverflow.com/questions/65900807/how-do-i-rotate-a-rectangle-shape-from-a-specific-point-in-p5-js) or here: (YouTube tutorial)[https://www.youtube.com/watch?v=maTfm84mLbo]
+
+## Inspiration
+
+[The Best Art-Maker I've Ever Made - p5.js generative art creative coding ](https://www.youtube.com/watch?v=XU996Rb3P_4)
+[Making Simple Patterns in p5.js](https://www.youtube.com/watch?v=ig0q6vfpD38)
