@@ -5,6 +5,26 @@ export default {
     logo: '/Artevelde.svg',
     nav: [
       { text: 'Introduction', link: '/' },
+      { text: 'After Effects', 
+      items: [
+        { text: 'Overview', link: '/after-effects/' },
+        // { text: 'Interface and keyframes', link: '/after-effects/interface/' },
+        { text: 'Introduction', 
+          items: [
+            { text: 'Interface', link: '/after-effects/interface/interface/' },
+            { text: 'Racing Ball', link: '/after-effects/interface/racing-ball.md' },
+            { text: 'Bouncing Ball', link: '/after-effects/interface/bouncing-ball.md' },
+            { text: 'DVD Screensaver', link: '/after-effects/interface/dvd-screensaver.md' },
+          ]
+       },
+        // { text: 'Importing assets', link: '/after-effects/assets/' },
+        // { text: '3D tracking', link: '/after-effects/3D tracking/' },
+        // { text: 'Compositing', link: '/after-effects/compositing/' },
+        // { text: 'Audio', link: '/after-effects/audio/' },
+        // { text: 'Scripting', link: '/after-effects/scripting/' },
+        // { text: 'Video', link: '/after-effects/video/' }
+      ]
+     },
       { text: 'P5.js', 
       items: [
         { text: 'Introduction', link: '/p5/' },
