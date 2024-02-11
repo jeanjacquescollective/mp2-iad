@@ -11,7 +11,7 @@ export default {
         // { text: 'Interface and keyframes', link: '/after-effects/interface/' },
         { text: 'Introduction', 
           items: [
-            { text: 'Interface', link: '/after-effects/interface/interface/' },
+            { text: 'Interface', link: '/after-effects/interface/' },
             { text: 'Racing Ball', link: '/after-effects/interface/racing-ball.md' },
             { text: 'Bouncing Ball', link: '/after-effects/interface/bouncing-ball.md' },
             { text: 'DVD Screensaver', link: '/after-effects/interface/dvd-screensaver.md' },
