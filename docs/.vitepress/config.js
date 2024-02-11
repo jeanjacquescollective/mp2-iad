@@ -53,8 +53,9 @@ export default {
       // },
       ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/' },
-      { icon: 'linkedin', link: '...' },
+      { icon: 'github', link: 'https://github.com/jeanjacquescollective' },
+      // { icon: 'linkedin', link: '...' },
+      { icon: 'web', link: 'jeanjacquescollective.org' },
       { icon: 'youtube', link: 'www.youtube.com/justjustcode' },
     ],
     footer: {
