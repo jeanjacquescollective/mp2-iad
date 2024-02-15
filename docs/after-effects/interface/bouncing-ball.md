@@ -35,3 +35,11 @@ In this tutorial, you'll learn how to create a simple animation of a bouncing ba
 9. **Preview and Refine:**
     - Preview your animation frequently to assess the movement and make adjustments as needed. (`Spacebar` to play/pause)
     - Pay attention to the spacing and timing of the bounces to ensure a convincing result.
+
+## Video tutorials
+
+If you prefer video tutorials, check out the following resources:
+
+- [ Animation Basics - Bouncing Ball (After Effects Tutorial) ](https://www.youtube.com/watch?v=KbpFCtXesbs)
+- [Animated Bouncing Ball Breaks | After Effects Tutorial](https://www.youtube.com/watch?v=Sf_rVfBDd5w)
+- [Master the Art of Ball Bounce Animation in After Effects | Step By Step](https://www.youtube.com/watch?v=TDHZs-LT--w)
