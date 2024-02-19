@@ -17,6 +17,8 @@ export default {
             { text: 'DVD Screensaver', link: '/after-effects/interface/dvd-screensaver.md' },
           ]
        },
+       {text: 'Walking Cycle', link: '/after-effects/walking-cycle.md' },
+       {text: 'Static image to video', link: '/after-effects/static-image-to-video.md' },
         // { text: 'Importing assets', link: '/after-effects/assets/' },
         // { text: '3D tracking', link: '/after-effects/3D tracking/' },
         // { text: 'Compositing', link: '/after-effects/compositing/' },
